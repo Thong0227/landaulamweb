@@ -1,0 +1,905 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+        width: 100%;
+        font-family: 'Segoe UI';
+        height: 100vh;
+}
+
+hr{
+    color: rgb(99, 94, 94);
+}
+
+.container{
+    position: relative;
+    display: block;
+}
+
+.cate{
+    text-decoration: none;
+    color: red;
+    font-size: small;
+}
+
+.cate:hover{
+    text-decoration: underline;
+}
+
+.head-line{
+    width: 76%;
+    border-top: 1px solid;
+    margin: 0 auto;
+}
+
+small:hover{
+    text-decoration: underline;
+}
+
+.nation-title,.friendship-title,.viethome-title,.seaislands-title{
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.nation-title:hover{
+    text-decoration: underline;
+}
+
+.friendship-title:hover{
+    text-decoration: underline;
+}
+
+.nation button:hover{
+    color: white;
+    background-color:rgb(248, 149, 149);
+}
+
+.friendship button:hover{
+    color: white;
+    background-color:rgb(248, 149, 149);
+}
+
+.viethome-title:hover{
+    text-decoration: underline;
+}
+
+.viethome button:hover{
+    color: white;
+    background-color:rgb(248, 149, 149);
+}
+
+/*-----------------HEADER---------------*/
+.header{
+    display: flex;
+    width: 100%;
+    margin: 5px 130px 0px 0px;
+    color: rgb(173, 163, 163);
+    font-size: 13px;
+    justify-content: space-around;
+}
+
+.header-right{
+    display: flex;
+}
+
+.about{
+    font-weight: bold;
+}
+
+.search-box{
+    position: relative;
+    width: 200px;
+    height: 25px;
+    overflow: hidden;
+    border-radius: 20px;
+    outline: none;
+    border: rgb(173, 163, 163) solid 1px;
+    right: 0;
+    margin-bottom: 6px;
+}
+
+.search-box-input{
+    height: 100%;
+    width: 100%;
+    color:black;
+    padding: 10px 10px 10px 10px;
+    font-size: 13px;
+    border: none;
+    outline: none;
+}
+
+.search-box-btn{
+    position:absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    right: 0;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: rgb(173, 163, 163);
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+/*-----------------LOGO---------------*/
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/*-----------------NAV---------------*/
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f2e8;
+    height: 50px;
+}
+
+.nav a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: smaller;
+    color: black;
+    margin: 10px;
+}
+
+.nav a:hover{
+    color: red;
+}
+
+
+/*-----------------Opening-News---------------*/
+
+.opening-news {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+}
+
+.opening-news a{
+    font-size: 13px;
+    text-decoration: none;
+    color: red;
+}
+
+.opening-news-left{
+    position:absolute;
+    float: left;
+    left: 180px;
+    top: 20px;
+    width: 17%;
+}
+
+.opening-news-left img{
+    height: 160px;
+    width: 250px;
+}
+
+.left-child:nth-child(2){
+    margin-top: 15px;
+}
+
+.opening-news-center{
+    position:absolute;
+    left: 460px;
+    top: 20px;
+    width: 31%;
+}
+
+.opening-news-center img {
+    height: 330px;
+    width: 490px;
+}
+
+.opening-news-right{
+    position:absolute;
+    left: 980px;
+    width: 20%;
+    top: 11px;
+}
+
+.right-child{
+    margin-top: 15px;
+}
+
+.opening-news-title{
+    cursor: pointer;
+}
+
+.opening-news-title:hover{
+    text-decoration: underline;
+}
+
+/*-----------------Ads------------------------*/
+.ads {
+    width: 76%;
+    height: 200px;
+    position: absolute;
+    margin-top: 500px;
+    left:180px;
+}
+
+.ads img{
+    width: 1155px;
+}
+
+.advertis-footer {
+    margin: 0 auto;
+    width: 76%;
+    margin-bottom: 40px;
+}
+
+.advertis-footer img{
+    width: 1155px;
+}
+
+
+/*-----------------Focus---------------*/
+
+.focus{
+    position: absolute;
+    height: 650px;
+    width: 100%;
+    background-color:rgb(248, 149, 149);
+    margin-top: 700px;
+    text-align: center;
+}
+
+.focus-title{
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.focus-title:hover{
+    color: rgb(252, 250, 249);
+}
+
+.focus hr{
+    width: 76%;
+    margin: 0 auto;
+}
+
+.focus-left{
+    width: 32%;
+    position: absolute;
+    margin: 20px 10px 0 180px;
+}
+
+.focus-left-news{
+    display: flex;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.focus-left-news img{
+    height: 140px;
+    width: 200px;
+    margin-right: 15px;
+}
+
+.focus-right{
+    width: 38%;
+    margin: 40px 180px 0 0px;
+    float: right;
+}
+
+.focus-right img{
+    height: 360px;
+    width: 575px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.focus-right h3{
+    text-align: left;
+}
+
+.focus button{
+    position: absolute;
+    margin: 560px 0 0 330px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(248, 149, 149);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.focus button:hover{
+    color: white;
+    background-color: rgb(65, 236, 142);
+}
+
+
+/*--------------------Nation-------------*/
+
+.nation{
+    position: absolute;
+    height: 650px;
+    width: 100%;
+    margin-top: 1400px;
+}
+
+.nation h1{
+    margin-left: 175px;
+}
+
+.nation-left{
+    width: 38%;
+    position: absolute;
+    margin: 20px 10px 0px 180px;
+}
+
+.nation-left-news img{
+    height: 360px;
+    width: 575px;
+}
+
+.nation-left-news{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.nation-left a{
+    text-decoration: none;
+    margin: 5px 0 10px 0;
+    color: red;
+}
+
+.nation-right{
+    width: 35%;
+    margin: 40px 200px 0 0px;
+    float: right;
+}
+
+.nation-right-news{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.nation-right-news a{
+    text-decoration: none;
+    position: absolute;
+    margin: 45px 0 0 210px;
+    color: red;
+}
+
+.nation-right img{
+    height: 140px;
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.nation-right h5{
+    text-align: left;
+}
+
+.nation button{
+    position: absolute;
+    margin: 510px 0 0 710px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(248, 149, 149);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.nation button:hover{
+    color: white;
+    background-color:rgb(248, 149, 149);
+}
+
+/*--------------------Friendship-------------*/
+
+.friendship{
+    height: 580px;
+    width: 100%;
+    margin: 2020px  0 0 0px;
+}
+
+.friendship hr {
+    margin: 0 auto;
+    width: 76%;
+}
+
+.friendship h1{
+    margin: 15px 0 0 180px;
+}
+
+.friendship button{
+    position: absolute;
+    margin: 0px 0 0 710px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(248, 149, 149);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.friendship-content{
+    display: flex;
+    justify-content:space-between;
+    margin: 30px 0 50px 180px;
+    height: 300px;
+    width: 285px;
+}
+
+.friendship-content img{
+    height: 220px;
+    width: 270px;
+}
+
+.content-news{
+    margin-right: 25px;
+}
+
+.content-news a{
+    text-decoration: none;
+    color: red;
+}
+
+/*-------------------Viethome--------------------------*/
+.viethome{
+    height: 600px;
+    width: 100%;
+}
+
+.viethome hr {
+    margin: 0 auto;
+    width: 76%;
+}
+
+.viethome h1{
+    margin: 15px 0 0 180px;
+}
+
+.viethome button{
+    position: absolute;
+    margin: 100px 0 0 710px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(248, 149, 149);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.viethome-content{
+    display: flex;
+    justify-content:space-between;
+    margin: 30px 0 50px 180px;
+    height: 300px;
+    width: 285px;
+}
+
+.viethome-content img{
+    height: 220px;
+    width: 270px;
+}
+
+.viethome-content-news{
+    display: block;
+    height: 470px;
+    margin-right: 25px;
+}
+
+.viethome-content-news a{
+    text-decoration: none;
+    color: red;
+    padding: 10px 0 10px 0;
+}
+
+.viethome-content-news h4{
+    font-weight: 400;
+    margin:5px 0 5px 0;
+}
+
+/*-----------------ECONOMY------------------------*/
+.economy{
+    width: 100%;
+    height: 500px;
+    background-color:#f9f2e8;
+
+}
+
+.economy-title_detail{
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.economy-title_detail:hover{
+    text-decoration: underline;
+}
+
+.economy a{
+    text-decoration: none;
+    color: black;
+}
+
+.economy-title{
+    display: flex;
+    background-color: #f5e5cf;
+    width: 100%;
+    padding: 5px 100px 10px 180px;
+}
+
+.economy-title .t2{
+    position: absolute;
+    background-color: #f9f2e8;
+    height: 58px;
+}
+
+.economy-title h5{
+    padding: 15px;
+    margin: 9px 0 0 180px;
+}
+
+.economy-title span{
+    margin: 13px 0 0 550px;
+}
+
+.economy-content{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 480px;
+    width: 76%;
+    margin-left: 180px;
+}
+
+.economy-new{
+    width: 260px;
+    height:350px;
+}
+
+.economy-new-desc{
+    padding-top: 10px;
+}
+
+.economy-new-desc img{
+    height: 220px;
+    width: 260px;
+    padding-top: 20px;
+}
+
+/*-------------sea islands+multimeadia--------------------*/
+.seaislands,.mulmedia{
+    height: 650px;
+    width: 76%;
+    margin: 50px 0 0 180px;
+}
+
+.seaislands-title:hover{
+    text-decoration: underline;
+}
+
+.mulmedia-title{
+    cursor: pointer;
+}
+
+.mulmedia-title:hover{
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+
+.seaislands h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.mulmedia h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.seaislands-content,.mulmedia-content{
+    display: flex;
+    justify-content:space-between;
+}
+
+.seaislands-left,.mulmedia-left{
+    margin: 0px 10px 0px 0px;
+    width: 48.5%;
+}
+
+.seaislands-left-news img{
+    height: 380px;
+    width: 557px;
+}
+
+.mulmedia-left-news img{
+    height: 380px;
+    width: 557px;
+}
+
+.seaislands-left-news,.mulmedia-left-news{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.seaislands-left a{
+    margin: 5px 0 10px 0;
+}
+
+.mulmedia-left a{
+    margin: 5px 0 10px 0;
+}
+
+.seaislands-right,.mulmedia-right{
+    width: 48.5%;
+    margin-top: 20px;
+}
+
+.seaislands-right-news,.mulmedia-right-news{
+    display: flex;
+    width: 550px;
+    margin-bottom: 15px;
+}
+
+.seaislands-right-news a{
+    text-decoration: none;
+}
+
+.seaislands-right-news img{
+    width: 280px;
+    height: 160px;
+}
+
+.mulmedia-right-news img{
+    width: 280px;
+    height: 160px;
+}
+
+.seaislands-right-news-desc,.mulmedia-right-news-desc{
+    margin: -5px 0 5px 10px;
+}
+
+.seaislands-right-news-desc h4 a{
+    color: black;
+    font-weight: 400;
+}
+
+.mulmedia-right-news-desc h4 a{
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.seaislands button{
+    position: absolute;
+    margin: 50px 0 0 525px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(248, 149, 149);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.seaislands button:hover{
+    background-color: rgb(248, 149, 149);
+    color: white;
+}
+
+.mulmedia button{
+    position: absolute;
+    margin: 50px 0 0 525px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(248, 149, 149);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.mulmedia button:hover{
+    background-color: rgb(248, 149, 149);
+    color: white;
+}
+
+
+/*-----------------overseas vietnamese + world + travel --------------*/
+
+.group-title{
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.group-title:hover{
+    text-decoration: underline;
+}
+
+.overseas,.world,.travel{
+    height: 480px;
+    width: 76%;
+    margin: 0 auto;
+}
+
+.overseas h1{
+    margin: 15px 0 0 0px;
+}
+
+.world h1{
+    margin: 15px 0 0 0px;
+}
+
+.travel h1{
+    margin: 15px 0 0 0px;
+}
+
+.overseas-content,.world-content,.travel-content{
+    display: flex;
+    justify-content:space-between;
+    margin: 30px 0 0px 0px;
+    height: 330px;
+    width: 100%;
+}
+
+.overseas-content img{
+    height: 220px;
+    width: 270px;
+}
+
+.world-content img{
+    height: 220px;
+    width: 270px;
+}
+
+.travel-content img{
+    height: 220px;
+    width: 270px;
+}
+
+.overseas-content-news,.world-content-news,.travel-content-news{
+    margin-right: 24px;
+    display: block;
+}
+
+.overseas-content-news a{
+    display: block;
+}
+
+.world-content-news a{
+    display: block;
+}
+
+.travel-content-news a{
+    display: block;
+}
+
+.overseas button{
+    margin: 0 auto;
+    margin-left: 525px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(248, 149, 149);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.world button{
+    margin: 0 auto;
+    margin-left: 525px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(248, 149, 149);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.travel button{
+    margin: 0 auto;
+    margin-left: 525px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(248, 149, 149);
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+
+/*-----------------handbook------------------------*/
+.handbook{
+    width: 100%;
+    height: 500px;
+    background-color:#f9f2e8;
+
+}
+
+.handbook-title_detail:hover{
+    text-decoration: underline;
+}
+
+.handbook a{
+    text-decoration: none;
+    color: black;
+}
+
+.handbook-title{
+    display: flex;
+    justify-content:space-between;
+    background-color: #f5e5cf;
+    width: 100%;
+    padding: 5px 100px 10px 180px;
+}
+
+.handbook-title span{
+    margin: 5px 85px 0 0px;
+    float: right;
+}
+
+.handbook-content{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 480px;
+    width: 76%;
+    margin-left: 180px;
+}
+
+.handbook-new{
+    width: 260px;
+    height:350px;
+}
+
+.handbook-new-desc{
+    padding-top: 10px;
+}
+
+.handbook-new-desc img{
+    height: 220px;
+    width: 260px;
+    padding-top: 20px;
+}
+
+/*-----------------Footer------------------*/
+.footer{
+    display: flex;
+    justify-content:space-between;
+    width: 76%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-left{
+    display: block;
+}
+
+.footer-right{
+    display: flex;
+    color:rgb(61, 171, 204);
+    font-size: 35px;
+}
+
+.footer-right i{
+    margin-left: 20px;
+}
+
+.version{
+    width: 76%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+
